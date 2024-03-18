@@ -50,13 +50,13 @@ public class Imovel {
     public void liberar(){
         this.disponibiliadade = true;
     }
-    
+
     public boolean isDisponibilidade(){
         return disponibiliadade;
-        
+
     }
     public double calcularPrecoVenda(){
-       // o preço de venda é o preço base
+        // o preço de venda é o preço base
         return precoBase;
     }
 }
