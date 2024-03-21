@@ -4,7 +4,7 @@ public class Funcionario {
     private int registro;
     private String nome, funcao;
 
-
+// Método para mostrar os dados;
     public Funcionario(int registro, String nome, String funcao) {
         this.registro = registro;
         this.nome = nome;

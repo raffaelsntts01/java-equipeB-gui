@@ -3,12 +3,13 @@ package imobiliaria;
 public class Cliente {
     private String nome, contato, cpf;
 
-
+// Método para aparecer os dados;
     public Cliente(String nome, String contato, String cpf) {
         this.nome = nome;
         this.contato = contato;
         this.cpf = cpf;
     }
+    // Gets e setters;
     public String getNome() {
         return nome;
     }
